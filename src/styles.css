@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #ffffff;
+  --color-ink: #0b0b0b;
+  --color-grey: #8a8a8a;
+  --color-line: #e5e5e5;
+  --font-sans: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: var(--color-paper);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* In the components layer so Tailwind utilities (e.g. normal-case) can override them */
+@layer components {
+/* Large tight display type, as in the reference */
+.display {
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 0.84;
+  text-transform: uppercase;
+}
+
+/* Small bold caps for captions, nav and labels */
+.label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+}
+
+.thumb {
+  transition: width 1.5s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.4s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thumb { transition: none; }
+}
