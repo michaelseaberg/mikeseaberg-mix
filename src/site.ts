@@ -9,7 +9,7 @@ export const site = {
   name: 'Mike Seaberg',
   role: 'Mixing Engineer',
   city: 'Los Angeles',
-  emails: ['alec@mikeseabergmix.com'],
+  emails: ['mgmt@mikeseabergmix.com'],
   instagram: { handle: '@mikeseaberg', url: 'https://www.instagram.com/mikeseaberg/' },
   tidalCredits: 'https://tidal.com/credits/13623605',
   // TIDAL listed 5,291 track credits in Sept 2026; shown rounded as "5,000+"
