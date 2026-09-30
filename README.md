@@ -26,7 +26,7 @@ The Credits page shows one tile per project (album, EP or single), linking to it
 - Projects from Mike's Spotify credit playlists that aren't on TIDAL are added as Mix Engineer and placed by Spotify play count.
 - `roleIndex` points into `ROLES` in `src/data/credits.ts`. A project shows Mike's top role across its songs. TIDAL's immersive credits and its "Mixing" + "Second Engineer" pairing both count as Mix Engineer.
 
-`data/hold/` holds credits taken off the site (currently Genia), with each entry's original position, so they can be put back in popularity order.
+`data/hold/` holds credits taken off the site, with each entry's original position, so they can be put back in popularity order.
 
 To add a project, add a row to `src/data/credits.json` where it belongs in popularity order. The album id is the last part of its Spotify link (`open.spotify.com/album/<id>`). The art hash is the end of the cover image URL after `ab67616d0000b273`.
 
