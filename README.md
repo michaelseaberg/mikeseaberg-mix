@@ -23,6 +23,7 @@ The Credits page shows one tile per project (album, EP or single), linking to it
 
 - `data/songs.json` has every song from Mike's TIDAL credit list (tidal.com/credits/13623605), matched to Spotify. Each row is `[title, artists, releaseDate, roleIndex, spotifyTrackId, albumArtHash]`, most popular first. It isn't bundled into the site. It's kept so the projects can be regrouped later.
 - `src/data/credits.json` is what the site uses: those songs grouped into projects. Each song goes with the TIDAL release that carries the most of Mike's credits, so a pre-release single folds into its album. The exception is when TIDAL only credits the single. Each row is `[projectTitle, artists, releaseDate, roleIndex, spotifyPath, albumArtHash]`, most popular first, which is the "Most popular" sort order. `spotifyPath` is `album/<id>`, or `track/<id>` for the few projects where no album link was found.
+- Projects from Mike's Spotify credit playlists that aren't on TIDAL are added as Mix Engineer and placed by Spotify play count.
 - `roleIndex` points into `ROLES` in `src/data/credits.ts`. A project shows Mike's top role across its songs. TIDAL's immersive credits and its "Mixing" + "Second Engineer" pairing both count as Mix Engineer.
 
 `data/hold/` holds credits taken off the site (currently Genia), with each entry's original position, so they can be put back in popularity order.

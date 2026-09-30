@@ -1,14 +1,6 @@
 import { Link } from 'react-router'
 import { PageTitle } from '../components/PageTitle'
-import { photos, site } from '../site'
-
-const facts = [
-  ['Based in', site.city],
-  ['Mentor', 'Jaycen Joshua'],
-  ['Education', 'Duke University, Electrical Engineering'],
-  ['Background', 'Classically trained pianist'],
-  ['Revisions', 'Unlimited'],
-]
+import { photos } from '../site'
 
 export default function Bio() {
   return (
@@ -30,15 +22,6 @@ export default function Bio() {
             how to make a record great. If you need a mixing engineer who will pour their heart and personality into your
             project, I'm your guy.
           </p>
-
-          <dl className="label mt-12 border-t border-ink">
-            {facts.map(([k, v]) => (
-              <div key={k} className="grid grid-cols-[8rem_1fr] border-b border-line py-2">
-                <dt className="text-grey">{k}</dt>
-                <dd>{v}</dd>
-              </div>
-            ))}
-          </dl>
         </div>
       </div>
 
