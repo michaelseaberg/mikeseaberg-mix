@@ -32,7 +32,9 @@ export default function Home() {
           <br />
           Seaberg
         </PageTitle>
-        <ul className="display absolute bottom-16 right-2 z-10 text-right text-[clamp(2.5rem,7.4vw,7.5rem)] md:bottom-5 md:right-4">
+        {/* Starts just below the midline; the size is capped so all six names fit in the bottom half */}
+        <ul className="display absolute right-2 top-[calc(50%+1.25rem)] z-10 text-right text-[min(max(2.5rem,7.4vw),calc(9.2svh-0.5rem),7.5rem)] md:right-4">
+
           {heroArtists.map((a) => (
             <li key={a}>
               <SpotifyLink artist={a} className="transition-opacity hover:opacity-60" />
