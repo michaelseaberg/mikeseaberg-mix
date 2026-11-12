@@ -32,7 +32,7 @@ export default function Contact() {
 
       <div className="grid gap-12 md:grid-cols-12 md:gap-x-5">
         <p className="text-lg font-bold uppercase leading-[1.05] tracking-[-0.03em] md:col-span-3 md:text-xl">
-          For rates, availability and project details. Every mix includes unlimited revisions.
+          Please email me for rates, availability and project details.
         </p>
 
         <div className="md:col-span-8 md:col-start-5">
@@ -41,7 +41,7 @@ export default function Contact() {
             <a
               key={e}
               href={mailtoHref('Mix inquiry')}
-              className="block break-all text-[clamp(1.75rem,4.4vw,4.25rem)] font-bold leading-[1.02] tracking-[-0.05em] hover:underline hover:decoration-2 hover:underline-offset-4"
+              className="block text-[clamp(1.25rem,6.4vw,4.25rem)] [overflow-wrap:anywhere] md:text-[clamp(1.75rem,4.4vw,4.25rem)] font-bold leading-[1.02] tracking-[-0.05em] hover:underline hover:decoration-2 hover:underline-offset-4"
             >
               {e}
             </a>
@@ -59,7 +59,9 @@ export default function Contact() {
       </div>
 
       <form onSubmit={handleSubmit} className="mt-28 grid gap-x-5 gap-y-8 md:mt-40 md:grid-cols-12">
-        <p className="label md:col-span-3">Or send the details</p>
+        <p className="text-lg font-bold uppercase leading-[1.05] tracking-[-0.03em] md:col-span-3 md:text-xl">
+          Or fill out the contact form below
+        </p>
         <div className="grid gap-x-5 gap-y-8 sm:grid-cols-2 md:col-span-8 md:col-start-5">
           {fields.map((f) => (
             <label key={f.name} className="block">

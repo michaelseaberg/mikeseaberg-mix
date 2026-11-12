@@ -15,6 +15,7 @@ npm run dev
 
 - **Name, emails, Instagram, photos:** `src/site.ts`
 - **Bio text:** `src/pages/Bio.tsx`
+- **Home page artists:** `src/data/featured.ts` holds the six names over the photo and the artist list below it, each linked to a credit on Spotify.
 - **Photos:** `src/assets/photos/` (the hero slide order is `heroSlides` in `src/site.ts`)
 
 ## Credits

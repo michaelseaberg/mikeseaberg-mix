@@ -29,17 +29,3 @@ export function Nav() {
     </nav>
   )
 }
-
-// The name line across the middle of the home photo slider
-export function MidLine() {
-  return (
-    <div
-      aria-hidden="true"
-      className="label pointer-events-none absolute inset-x-0 top-1/2 z-10 flex -translate-y-1/2 justify-between px-3 text-white md:px-5"
-    >
-      <span>Mike</span>
-      <span>Mixing Engineer</span>
-      <span>Seaberg</span>
-    </div>
-  )
-}
