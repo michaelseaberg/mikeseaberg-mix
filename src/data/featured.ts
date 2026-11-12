@@ -40,10 +40,15 @@ const links = new Map<string, string>([
   ["Camilo", 'https://open.spotify.com/album/0vfE72mb2weKSONtBC6SPJ'],
   ["Davido", 'https://open.spotify.com/album/3rXxtzPFyUuvhsOW32kyg9'],
   ["Myke Towers", 'https://open.spotify.com/album/5qhxJXwhtjXAmCr22FXG3Q'],
+  ["Fireboy DML", 'https://open.spotify.com/album/7ALh95O2ioQV7a3sW4L2CG'],
+  ["Olamide", 'https://open.spotify.com/album/6fG2eFCgUmytQWL6umtsCh'],
+  ["Kizz Daniel", 'https://open.spotify.com/album/6w7LwKRKvtm3XjmUCvhVWO'],
+  ["FOLA", 'https://open.spotify.com/album/6gTLViwiDv6NKtTAG0nm7S'],
+  ["Russ", 'https://open.spotify.com/album/1ZxzpJ4MVEbxilQfEnY0n9'],
 ])
 
 const pick = (names: string[]) => names.map((name) => ({ name, url: links.get(name)! }))
 
-export const heroArtists = pick(["Beyoncé", "BTS", "Drake", "SZA", "Daddy Yankee", "ROSALÍA"])
+export const heroArtists = pick(["Beyoncé", "BTS", "Bryson Tiller", "SZA", "Russ", "ROSALÍA"])
 
-export const artistWall = pick(["BTS", "Beyoncé", "Daddy Yankee", "Drake", "SZA", "H.E.R.", "Ed Sheeran", "Ella Mai", "ROSALÍA", "Kehlani", "Maluma", "Jung Kook", "Doja Cat", "Nicki Minaj", "Alicia Keys", "Luis Fonsi", "Usher", "Becky G", "Megan Thee Stallion", "Mary J. Blige", "Kali Uchis", "Jimin", "Bryson Tiller", "Ricky Martin", "Pop Smoke", "Summer Walker", "Christina Aguilera", "Juice WRLD", "Muni Long", "Rauw Alejandro", "ZAYN", "TINI", "Normani", "Sebastian Yatra", "Jack Harlow", "Ciara", "Camilo", "Davido", "Myke Towers"])
+export const artistWall = pick(["BTS", "Beyoncé", "Daddy Yankee", "Drake", "SZA", "H.E.R.", "Ed Sheeran", "Fireboy DML", "Ella Mai", "ROSALÍA", "Kehlani", "Maluma", "Jung Kook", "Doja Cat", "Nicki Minaj", "Alicia Keys", "Luis Fonsi", "Olamide", "Usher", "Becky G", "Megan Thee Stallion", "Mary J. Blige", "Kali Uchis", "Jimin", "Bryson Tiller", "Ricky Martin", "Pop Smoke", "Kizz Daniel", "Summer Walker", "Christina Aguilera", "Juice WRLD", "Muni Long", "Rauw Alejandro", "ZAYN", "TINI", "Normani", "Sebastian Yatra", "FOLA", "Jack Harlow", "Ciara", "Camilo", "Davido", "Myke Towers"])
