@@ -17,10 +17,9 @@ export default function Bio() {
 
         <div className="md:col-span-6 md:col-start-7">
           <p className="text-[clamp(1.5rem,2.4vw,2.25rem)] font-semibold leading-[1.1] tracking-[-0.035em]">
-            Under the instruction of Jaycen Joshua, I have learned what a remarkable mix sounds like. Through hours of
-            listening, repetition, and creative debate I have gained an understanding of not only how to mix a record, but
-            how to make a record great. If you need a mixing engineer who will pour their heart and personality into your
-            project, I'm your guy.
+            Through hours of listening, repetition, and creative debate I have gained an understanding of not only how to mix
+            a record, but how to make a record great. If you need a mixing engineer who will pour their heart and
+            personality into your project, I’m your guy.
           </p>
         </div>
       </div>
@@ -30,20 +29,21 @@ export default function Bio() {
           <p>
             Born and raised outside of Washington, D.C., I grew up as a classically trained pianist with a keen interest in the
             production of music. I began learning the foundations of mixing in high school, working with several local artists.
-            After attending Duke University and attaining a degree in electrical engineering, I decided to switch career paths
-            and moved to Los Angeles to start a position as a runner at Larrabee Studios. It was here that I began my mixing
-            position with Jaycen Joshua, who has mentored me as I develop my mixing style.
+            After attending Duke University and attaining a degree in electrical engineering &amp; computer science, I decided to
+            switch career paths and moved to Los Angeles to start a position as a runner at Larrabee Studios. It was here that I
+            began my mixing position with Jaycen Joshua, who has mentored me as I develop my mixing style.
           </p>
           <p>
             I have worked with internationally award-winning artists across a range of genres. I put the same effort into all
             my work and am passionate about all projects, big or small. My musical background provides me with a technical
-            understanding of sound and musical theory, which I apply to my mixing.
+            understanding of sound and musical theory, which I apply to my mixing. Beyond mixing, I played a role in designing
+            "The God Particle" by Cradle, and I now function as the CEO of YOHDA Audio, a new plugin company.
           </p>
           <p>
-            I am currently based in Los Angeles and looking to work with artists from a range of genres and backgrounds. I look
-            forward to working collaboratively with you to ensure you are happy with your mix; I welcome feedback and offer
-            unlimited revisions until we are both happy with the project. Working closely together is the key to making your
-            record amazing!
+            I am currently based in Los Angeles at Canton House Studios and am looking to work with artists from a range of
+            genres and backgrounds. I look forward to working collaboratively with you to ensure you are happy with your mix; I
+            welcome feedback and offer unlimited revisions until we are both happy with the project. Working closely together
+            is the key to making your record amazing!
           </p>
           <p>Please shoot me a message if you are interested or have any questions!</p>
           <Link
